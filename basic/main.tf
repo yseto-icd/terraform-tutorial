@@ -8,6 +8,9 @@ terraform {
 
 provider "docker" {}
 
+# Windowsユーザは↓
+# provider "docker" { host    = "npipe:////.//pipe//docker_engine" }
+
 resource "docker_image" "nginx" {
   name         = "nginx:latest"
   keep_locally = false
