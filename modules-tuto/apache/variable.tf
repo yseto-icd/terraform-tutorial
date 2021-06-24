@@ -1,6 +1,6 @@
 variable "image_var" {
-default = {
-  "name" = "httpd:2.4"
+  default = {
+    "name" = "httpd:2.4"
   }
 }
 

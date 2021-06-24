@@ -1,6 +1,6 @@
 variable "image_var" {
-default = {
-  "name" = "nginx:latest"
+  default = {
+    "name" = "nginx:latest"
   }
 }
 

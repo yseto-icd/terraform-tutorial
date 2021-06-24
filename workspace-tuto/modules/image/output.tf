@@ -3,4 +3,4 @@ output "image_out" {
     "latest" = docker_image.example.latest
   }
 }
-  
+
