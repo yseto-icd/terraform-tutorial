@@ -3,7 +3,7 @@
 basicと同じ
 
 ## 動かし方
-- `workspace-tuto/n`直下でコマンドを叩く
+- `workspace-tuto/main`直下でコマンドを叩く
 
 ```bash
 # terraform init
